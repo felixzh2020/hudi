@@ -196,8 +196,8 @@
     </dependency>
     <dependency>
       <groupId>org.apache.parquet</groupId>
-      <artifactId>parquet-common</artifactId>
-      <version>${parquet.version}</version>
+      <artifactId>parquet-column</artifactId>
+      <version>${hive.parquet.version}</version>
       <scope>compile</scope>
     </dependency>
 
