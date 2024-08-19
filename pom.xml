@@ -107,7 +107,7 @@
     <confluent.version>5.3.4</confluent.version>
     <glassfish.version>2.17</glassfish.version>
     <glassfish.el.version>3.0.1-b12</glassfish.el.version>
-    <parquet.version>1.10.1</parquet.version>
+    <parquet.version>1.12.2</parquet.version>
     <junit.jupiter.version>5.7.2</junit.jupiter.version>
     <junit.vintage.version>5.7.2</junit.vintage.version>
     <junit.platform.version>1.7.2</junit.platform.version>
@@ -118,7 +118,7 @@
     <hadoop.version>2.10.2</hadoop.version>
     <hive.groupid>org.apache.hive</hive.groupid>
     <hive.version>2.3.1</hive.version>
-    <hive.parquet.version>1.10.1</hive.parquet.version>
+    <hive.parquet.version>1.12.2</hive.parquet.version>
     <hive.avro.version>1.8.2</hive.avro.version>
     <presto.version>0.273</presto.version>
     <trino.version>390</trino.version>
