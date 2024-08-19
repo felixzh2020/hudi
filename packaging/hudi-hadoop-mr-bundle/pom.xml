@@ -84,6 +84,7 @@
                   <include>com.fasterxml.jackson.datatype:jackson-datatype-jsr310</include>
 
                   <include>org.apache.parquet:parquet-avro</include>
+                  <include>org.apache.parquet:parquet-column</include>
                   <include>org.apache.avro:avro</include>
                   <include>com.yammer.metrics:metrics-core</include>
                   <include>commons-io:commons-io</include>
@@ -191,6 +192,12 @@
       <groupId>org.apache.parquet</groupId>
       <artifactId>parquet-avro</artifactId>
       <version>${hive.parquet.version}</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.apache.parquet</groupId>
+      <artifactId>parquet-common</artifactId>
+      <version>${parquet.version}</version>
       <scope>compile</scope>
     </dependency>
 
